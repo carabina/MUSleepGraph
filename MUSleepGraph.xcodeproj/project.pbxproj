@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627D8AD61DD344C20084DCB0 /* MUSleepGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D8AD51DD344C20084DCB0 /* MUSleepGraph.m */; };
+		B61656EC1C6B903F00B589E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B61656EB1C6B903F00B589E8 /* main.m */; };
+		B61656EF1C6B903F00B589E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61656EE1C6B903F00B589E8 /* AppDelegate.m */; };
+		B61656F21C6B903F00B589E8 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61656F11C6B903F00B589E8 /* GraphViewController.m */; };
+		B61656F71C6B904000B589E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61656F61C6B904000B589E8 /* Assets.xcassets */; };
+		B61657041C6B912100B589E8 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61657031C6B912000B589E8 /* GraphViewController.xib */; };
+		B616570C1C6B918300B589E8 /* GraphPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = B61657091C6B918300B589E8 /* GraphPoints.m */; };
+		B61657121C6B920800B589E8 /* UILabel+Kerning.m in Sources */ = {isa = PBXBuildFile; fileRef = B61657111C6B920800B589E8 /* UILabel+Kerning.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		627D8AD41DD344C20084DCB0 /* MUSleepGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSleepGraph.h; sourceTree = "<group>"; };
+		627D8AD51DD344C20084DCB0 /* MUSleepGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSleepGraph.m; sourceTree = "<group>"; };
+		B61656E71C6B903F00B589E8 /* MUSleepGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUSleepGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61656EB1C6B903F00B589E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B61656ED1C6B903F00B589E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B61656EE1C6B903F00B589E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B61656F01C6B903F00B589E8 /* GraphViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		B61656F11C6B903F00B589E8 /* GraphViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		B61656F61C6B904000B589E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61656FB1C6B904000B589E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61657031C6B912000B589E8 /* GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		B61657081C6B918300B589E8 /* GraphPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphPoints.h; sourceTree = "<group>"; };
+		B61657091C6B918300B589E8 /* GraphPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphPoints.m; sourceTree = "<group>"; };
+		B616570F1C6B91AE00B589E8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B61657101C6B920800B589E8 /* UILabel+Kerning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Kerning.h"; sourceTree = "<group>"; };
+		B61657111C6B920800B589E8 /* UILabel+Kerning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Kerning.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61656E41C6B903F00B589E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61656DE1C6B903F00B589E8 = {
+			isa = PBXGroup;
+			children = (
+				B61656E91C6B903F00B589E8 /* MUSleepGraph */,
+				B61656E81C6B903F00B589E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61656E81C6B903F00B589E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61656E71C6B903F00B589E8 /* MUSleepGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61656E91C6B903F00B589E8 /* MUSleepGraph */ = {
+			isa = PBXGroup;
+			children = (
+				B61657141C6B99B700B589E8 /* Graph Classes */,
+				B61657011C6B908100B589E8 /* App Delegate */,
+				B61657021C6B908800B589E8 /* View Controller */,
+				B61656EA1C6B903F00B589E8 /* Supporting Files */,
+			);
+			name = MUSleepGraph;
+			path = FSSleepGraph;
+			sourceTree = "<group>";
+		};
+		B61656EA1C6B903F00B589E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61656F61C6B904000B589E8 /* Assets.xcassets */,
+				B61656FB1C6B904000B589E8 /* Info.plist */,
+				B61656EB1C6B903F00B589E8 /* main.m */,
+				B616570F1C6B91AE00B589E8 /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B61657011C6B908100B589E8 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B61656ED1C6B903F00B589E8 /* AppDelegate.h */,
+				B61656EE1C6B903F00B589E8 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		B61657021C6B908800B589E8 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B61656F01C6B903F00B589E8 /* GraphViewController.h */,
+				B61656F11C6B903F00B589E8 /* GraphViewController.m */,
+				B61657031C6B912000B589E8 /* GraphViewController.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		B616570D1C6B919000B589E8 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				627D8AD41DD344C20084DCB0 /* MUSleepGraph.h */,
+				627D8AD51DD344C20084DCB0 /* MUSleepGraph.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		B616570E1C6B919800B589E8 /* Graph Points */ = {
+			isa = PBXGroup;
+			children = (
+				B61657081C6B918300B589E8 /* GraphPoints.h */,
+				B61657091C6B918300B589E8 /* GraphPoints.m */,
+			);
+			name = "Graph Points";
+			sourceTree = "<group>";
+		};
+		B61657131C6B921300B589E8 /* UILabel Category */ = {
+			isa = PBXGroup;
+			children = (
+				B61657101C6B920800B589E8 /* UILabel+Kerning.h */,
+				B61657111C6B920800B589E8 /* UILabel+Kerning.m */,
+			);
+			name = "UILabel Category";
+			sourceTree = "<group>";
+		};
+		B61657141C6B99B700B589E8 /* Graph Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B616570D1C6B919000B589E8 /* Graph */,
+				B616570E1C6B919800B589E8 /* Graph Points */,
+				B61657131C6B921300B589E8 /* UILabel Category */,
+			);
+			name = "Graph Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61656E61C6B903F00B589E8 /* MUSleepGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61656FE1C6B904000B589E8 /* Build configuration list for PBXNativeTarget "MUSleepGraph" */;
+			buildPhases = (
+				B61656E31C6B903F00B589E8 /* Sources */,
+				B61656E41C6B903F00B589E8 /* Frameworks */,
+				B61656E51C6B903F00B589E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MUSleepGraph;
+			productName = FSSleepGraph;
+			productReference = B61656E71C6B903F00B589E8 /* MUSleepGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61656DF1C6B903F00B589E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Muhammad Usman";
+				TargetAttributes = {
+					B61656E61C6B903F00B589E8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B61656E21C6B903F00B589E8 /* Build configuration list for PBXProject "MUSleepGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61656DE1C6B903F00B589E8;
+			productRefGroup = B61656E81C6B903F00B589E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61656E61C6B903F00B589E8 /* MUSleepGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61656E51C6B903F00B589E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61656F71C6B904000B589E8 /* Assets.xcassets in Resources */,
+				B61657041C6B912100B589E8 /* GraphViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61656E31C6B903F00B589E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61656F21C6B903F00B589E8 /* GraphViewController.m in Sources */,
+				B616570C1C6B918300B589E8 /* GraphPoints.m in Sources */,
+				627D8AD61DD344C20084DCB0 /* MUSleepGraph.m in Sources */,
+				B61657121C6B920800B589E8 /* UILabel+Kerning.m in Sources */,
+				B61656EF1C6B903F00B589E8 /* AppDelegate.m in Sources */,
+				B61656EC1C6B903F00B589E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B61656FC1C6B904000B589E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B61656FD1C6B904000B589E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61656FF1C6B904000B589E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSSleepGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usadmania.MUSleepGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B61657001C6B904000B589E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSSleepGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usadmania.MUSleepGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61656E21C6B903F00B589E8 /* Build configuration list for PBXProject "MUSleepGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61656FC1C6B904000B589E8 /* Debug */,
+				B61656FD1C6B904000B589E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61656FE1C6B904000B589E8 /* Build configuration list for PBXNativeTarget "MUSleepGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61656FF1C6B904000B589E8 /* Debug */,
+				B61657001C6B904000B589E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61656DF1C6B903F00B589E8 /* Project object */;
+}
