@@ -1,7 +1,7 @@
 # MUSleepGraph
 MUSleepGraph is a unique way to show data in curved line graph. 
 
-![alt tag](http://i.giphy.com/cMlArCFZal2P6.gif)
+![alt tag](https://github.com/usadmania/MUSleepGraph/blob/master/demo.gif)
 
 
 ## Requirements
