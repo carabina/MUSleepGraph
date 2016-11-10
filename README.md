@@ -59,6 +59,10 @@ Muhammad Usman
 - https://github.com/usadmania
 - usadmania@gmail.com
 
+## Known Issues:
+
+* For some small values, graph draws wrong curves.
+
 ## License
 
 The MIT License (MIT)
